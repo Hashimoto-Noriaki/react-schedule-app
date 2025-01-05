@@ -554,20 +554,18 @@ video {
   display: none;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.flex {
+  display: flex;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.justify-between {
+  justify-content: space-between;
 }
 
-.font-bold {
-  font-weight: 700;
+.gap-5 {
+  gap: 1.25rem;
 }
 
-.underline {
-  text-decoration-line: underline;
+.gap-3 {
+  gap: 0.75rem;
 }
