@@ -24,6 +24,13 @@ https://tailwindcss.com/docs/customizing-colors
 ### ul ol
 <ul> (順序なしリスト)	<ol> (順序付きリスト)
 
+### relative
+<div className="relative">
+relative:
+この<div>要素を相対配置に設定します。
+相対配置は、この要素の位置を通常の文脈（デフォルトの位置）からの相対的な位置として指定できるようにします。
+特に重要な点は、この相対配置が内部の子要素（例えば、absoluteクラスが適用された要素）に基準を提供するという点です。
+
 ### text-〇〇xl
 - text-3x　fontsize: 30px
 - font-bold　font-weight: 700
