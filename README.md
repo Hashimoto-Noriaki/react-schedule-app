@@ -31,6 +31,9 @@ relative:
 相対配置は、この要素の位置を通常の文脈（デフォルトの位置）からの相対的な位置として指定できるようにします。
 特に重要な点は、この相対配置が内部の子要素（例えば、absoluteクラスが適用された要素）に基準を提供するという点です。
 
+### leading
+leading-[50px] は、行の高さを 50px に設定するクラスで
+
 ### text-〇〇xl
 - text-3x　fontsize: 30px
 - font-bold　font-weight: 700
