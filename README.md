@@ -12,6 +12,11 @@ npx tailwindcss -i ./src/styles/index.css -o ./src/styles/output.css --watch
 https://tailwindcss.com/docs/installation
 
 # Tailwindで調べたこと
+
+
+### justify-between
+- justify-content: space-between
+
 ### text-〇〇xl
 - text-3x　fontsize: 30px
 - font-bold　font-weight: 700
