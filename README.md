@@ -9,7 +9,11 @@ npx tailwindcss -i ./src/styles/index.css -o ./src/styles/output.css --watch
 ```
 
 ### Tailwindのドキュメント
+- インストール
 https://tailwindcss.com/docs/installation
+
+- カラー
+https://tailwindcss.com/docs/customizing-colors
 
 # Tailwindで調べたこと
 
