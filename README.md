@@ -17,6 +17,9 @@ https://tailwindcss.com/docs/installation
 ### justify-between
 - justify-content: space-between
 
+### ul ol
+<ul> (順序なしリスト)	<ol> (順序付きリスト)
+
 ### text-〇〇xl
 - text-3x　fontsize: 30px
 - font-bold　font-weight: 700
