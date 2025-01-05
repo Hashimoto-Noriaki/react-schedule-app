@@ -5,5 +5,7 @@ import "./styles/output.css"
 import "./styles/destyle.css";
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode></React.StrictMode>
+  <React.StrictMode>
+    <h1 className="text-3xl font-bold underline">Reactだ</h1>
+  </React.StrictMode>
 )
