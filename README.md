@@ -34,6 +34,9 @@ relative:
 ### leading
 leading-[50px] は、行の高さを 50px に設定するクラスで
 
+### top-0 right-0 left-0
+マージンが0
+
 ### text-〇〇xl
 - text-3x　fontsize: 30px
 - font-bold　font-weight: 700
