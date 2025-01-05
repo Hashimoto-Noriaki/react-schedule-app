@@ -554,6 +554,26 @@ video {
   display: none;
 }
 
+.fixed {
+  position: fixed;
+}
+
+.relative {
+  position: relative;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .flex {
   display: flex;
 }
@@ -562,10 +582,37 @@ video {
   justify-content: space-between;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
 .gap-3 {
   gap: 0.75rem;
+}
+
+.leading-\[50px\] {
+  line-height: 50px;
+}
+
+.leading-\[500px\] {
+  line-height: 500px;
+}
+
+.text-lime-800 {
+  --tw-text-opacity: 1;
+  color: rgb(63 98 18 / var(--tw-text-opacity, 1));
+}
+
+.text-red-800 {
+  --tw-text-opacity: 1;
+  color: rgb(153 27 27 / var(--tw-text-opacity, 1));
+}
+
+.logo {
+  color          : #ffffff;
+  text-shadow    : 
+        1px  1px 1px #3f6212,
+      -1px  1px 1px #3f6212,
+        1px -1px 1px #3f6212,
+      -1px -1px 1px #3f6212,
+        1px  0px 1px #3f6212,
+        0px  1px 1px #3f6212,
+      -1px  0px 1px #3f6212,
+        0px -1px 1px #3f6212;
 }
