@@ -13,16 +13,19 @@ https://tailwindcss.com/docs/installation
 
 # Tailwindで調べたこと
 ### text-〇〇xl
-- text-5xl
+- text-3x　fontsize: 30px
+- font-bold　font-weight: 700
+- underline  text-decoration-line: underline
+
+text-5xl
 5xl は非常に大きなフォントサイズを指します。
 Tailwind CSS のデフォルト設定では、text-5xl は font-size: 3rem;（48px）に相当。
 また、line-height（行間）も自動的に調整され、デフォルトで 1
 
-- text-3xl
+text-3xl
 3xl は少し小さめですが、まだ大きなフォントサイズを指します。
 Tailwind CSS のデフォルト設定では、text-3xl は font-size: 1.875rem;（30px）に相当。
 デフォルトの line-height は 1.25
-
 
 |クラス|サイズ (rem)|ピクセル換算 (px)|
 |----|----|-----|
