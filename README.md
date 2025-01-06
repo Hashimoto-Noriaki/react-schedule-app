@@ -44,6 +44,20 @@ to-r は "to right"
 background-image: linear-gradient(to right, ...);
 ```
 
+### p-4
+pはpadding
+4は1rem
+```css
+padding: 1rem; /*
+```
+
+- [20vh]:
+カスタム値として 20vh を設定。
+vh（viewport height） はビューポート（画面）の高さの単位を表し、20vh は画面の高さの 20% を意味します。
+```css
+padding-top: 20vh;
+```
+
 ### text-〇〇xl
 - text-3x　fontsize: 30px
 - font-bold　font-weight: 700
