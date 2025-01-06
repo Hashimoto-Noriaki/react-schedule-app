@@ -37,6 +37,13 @@ leading-[50px] は、行の高さを 50px に設定するクラスで
 ### top-0 right-0 left-0
 マージンが0
 
+### bg-gradient-to-r
+背景に「左から右へのグラデーション」を適用
+to-r は "to right"
+```css
+background-image: linear-gradient(to right, ...);
+```
+
 ### text-〇〇xl
 - text-3x　fontsize: 30px
 - font-bold　font-weight: 700
