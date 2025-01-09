@@ -15,6 +15,10 @@ https://tailwindcss.com/docs/installation
 - カラー
 https://tailwindcss.com/docs/customizing-colors
 
+# グラデーションボタン
+
+https://github.com/Hashimoto-Noriaki/react-schedule-app/pull/6
+
 # Tailwindで調べたこと
 ### container
 container は Tailwind CSS のユーティリティクラスで、幅の制限と中央寄せを行う
@@ -103,3 +107,4 @@ Tailwind CSS のデフォルト設定では、text-3xl は font-size: 1.875rem;�
 |text-7xl|4.5rem|72px|
 |text-8xl|6rem|96px|
 |text-9xl|8rem|128px|
+
