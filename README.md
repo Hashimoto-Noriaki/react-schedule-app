@@ -16,6 +16,21 @@ https://tailwindcss.com/docs/installation
 https://tailwindcss.com/docs/customizing-colors
 
 # Tailwindで調べたこと
+### container
+container は Tailwind CSS のユーティリティクラスで、幅の制限と中央寄せを行う
+
+|ブレークポイント|最大幅 (max-width)|
+|--------------|-----------------|
+|sm (640px以上)|640px|
+|md (768px以上)|768px|
+|lg (1024px以上)|1024px|
+|xl (1280px以上)|1280px|
+|2xl|(1536px以上)|1536px|
+
+### mx-auto
+Tailwind CSS のユーティリティクラスで、左右のマージンを自動***margin-left: auto; margin-right: auto;***に設定します。
+親コンテナ内で要素を中央揃えにするために使用
+
 
 
 ### justify-between
