@@ -592,6 +592,10 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
@@ -617,8 +621,16 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-\[20vh\] {
+  margin-top: 20vh;
+}
+
 .flex {
   display: flex;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .flex-col {
@@ -655,6 +667,21 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-lime-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(190 242 100 / var(--tw-bg-opacity, 1));
+}
+
+.bg-lime-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 252 203 / var(--tw-bg-opacity, 1));
+}
+
+.bg-lime-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(217 249 157 / var(--tw-bg-opacity, 1));
+}
+
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -674,6 +701,18 @@ video {
 .from-lime-500 {
   --tw-gradient-from: #84cc16 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(132 204 22 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-lime-400 {
+  --tw-gradient-from: #a3e635 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(163 230 53 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-lime-200 {
+  --tw-gradient-from: #d9f99d var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(217 249 157 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
@@ -697,12 +736,20 @@ video {
   --tw-gradient-to: #f97316 var(--tw-gradient-to-position);
 }
 
+.to-lime-300 {
+  --tw-gradient-to: #bef264 var(--tw-gradient-to-position);
+}
+
 .p-1 {
   padding: 0.25rem;
 }
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-12 {
+  padding: 3rem;
 }
 
 .pt-\[10vh\] {
@@ -715,6 +762,26 @@ video {
 
 .pt-\[50px\] {
   padding-top: 50px;
+}
+
+.pt-\[50vh\] {
+  padding-top: 50vh;
+}
+
+.pt-\[80vh\] {
+  padding-top: 80vh;
+}
+
+.pt-\[10px\] {
+  padding-top: 10px;
+}
+
+.pt-\[100vh\] {
+  padding-top: 100vh;
+}
+
+.pt-\[30vh\] {
+  padding-top: 30vh;
 }
 
 .text-center {
@@ -733,6 +800,16 @@ video {
 
 .text-lg {
   font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
